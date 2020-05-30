@@ -4,16 +4,16 @@ project('nanovg', ['c'],
          meson_version : '>= 0.49.0')
 
 src_nanovg = [
-  'nanovg.c'
+  'src/nanovg.c'
 ]
 
 headers_nanovg = [
-  'fontstash.h',
-  'nanovg_gl_utils.h',
-  'nanovg_gl.h',
-  'nanovg.h',
-  'stb_image.h',
-  'stb_truetype.h'
+  'src/fontstash.h',
+  'src/nanovg_gl_utils.h',
+  'src/nanovg_gl.h',
+  'src/nanovg.h',
+  'src/stb_image.h',
+  'src/stb_truetype.h'
 ]
 
 inc_nanovg = include_directories('.')
